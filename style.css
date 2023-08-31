@@ -1,0 +1,36 @@
+@font-face{
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+}
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Lightgray: hsl(212, 45%, 89%) ;
+    --Grayishblue: hsl(220, 15%, 55%);
+    --Darkblue: hsl(218, 44%, 22%);
+}
+
+body {
+    background-color: var(--Lightgray);
+    font-family: 'Outfit', sans-serif;
+}
+
+.card-QR .card{
+    width: 21rem;
+    border-radius: 30px;
+}
+
+.card-QR .card img{
+    border-radius: 10px;
+}
+.card-QR .card  .card-text{
+font-size: 15px;
+font-weight: 400;
+color: var(--Grayishblue);
+
+}
+
+.card-QR .card  .card-title{
+    font-size: 22px; 
+   font-weight: 700; 
+   color: var(--Darkblue);
+    
+    }
